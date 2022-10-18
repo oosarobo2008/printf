@@ -32,4 +32,8 @@ int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
 int get_precision(const char *format, int *i, va_list list);
+int get_flags(const char *format, int *i);
+int get_size(const char *format, int *i);
+int get_width(const char *format, int *i, va_list list);
+  
 #endif /*MAIN_H*/
